@@ -125,7 +125,7 @@ class ProgramBluprint(QWidget):
             for exercise in exercise_dict.values():
                 result[workout_name_widget.text()].append({
                     "Order": exercise[0].value(),
-                    "Execise Name": exercise[1].text(),
+                    "Exercise Name": exercise[1].text(),
                     "Intensity": exercise[2].value(),
                     "Sets": exercise[3].value(),
                     "Rep Range": exercise[4].text()
